@@ -7,7 +7,7 @@ and three deletion options, FREEZE (simply stop adding entries when the dictiona
 RESTART (reset the dictionary whenever it is full and compression drops off according to some criterion you choose),
 and LRU (least recent used).
 
-To compress or decompress, please cd into the directory where compressor.py is in and execute:
+To compress or decompress, please cd into the directory where compressor.py is in and execute: 
 python compressor.py [update=] [delete=] [file_name=] [dict_size=]
 options: update=fc/cm, delete=freeze/restart/lru
          file_name=file under test_files with the end .txt
