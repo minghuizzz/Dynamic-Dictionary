@@ -27,6 +27,7 @@ Except that:
 3. I use dict data structure to store the dictionary to improve compressing and decompressing speed
 
 Here is my compression result using 4k and 64k dictionary compared to gzip and bzip2:
+
 file	       original	4k	64k	gzip	bzip2
 
 aaaREADME.txt	4KB	4KB	4KB	2KB	2KB
